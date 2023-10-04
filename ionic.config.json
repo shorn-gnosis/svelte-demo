@@ -1,0 +1,7 @@
+{
+  "name": "svelte-demo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

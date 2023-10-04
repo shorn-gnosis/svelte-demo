@@ -1,4 +1,5 @@
 <script>
+	import { fade } from 'svelte/transition';
 	import welcome from '$lib/images/gnosis-logo.svg';
 </script>
 
@@ -9,9 +10,10 @@
 
 <section>
 		<div class="welcome">
+			
 			<picture>
 				<source srcset={welcome} type="image/svg" />
-				<img src={welcome} alt="Gnosis Wallet" />
+				<img in:fade={{ delay: 500, duration: 1000 }} src={welcome} alt="Gnosis Wallet" />
 			</picture>
 		</div>
 
