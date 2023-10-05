@@ -13,7 +13,7 @@
 			
 			<picture>
 				<source srcset={welcome} type="image/svg" />
-				<img in:fade={{ delay: 500, duration: 1000 }} src={welcome} alt="Gnosis Wallet" />
+				<img src={welcome} alt="Gnosis Wallet" />
 			</picture>
 		</div>
 
@@ -25,8 +25,8 @@
 
 <div class="w-full h-full bg-gray-100 flex flex-col items-center justify-center">
 	<div style="width: 80%; height: 100%; text-align:center; margin: 0 auto">
-		<button>Create a new wallet</button>
-		<p class="text-gray-700 text-lg font-semibold mb-20">I already have a Circles account</p>
+		<button style="margin-bottom:10px">Create a new wallet</button>
+		<a href="" class="text-gray-700 text-lg font-semibold mb-20">I already have a Circles account</a>
 	</div>
 	
 	<!-- Other elements from the design -->

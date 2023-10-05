@@ -10,15 +10,20 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
+"@capacitor/android@5.4.2":
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-5.4.2.tgz#3d7cd376d1a55198455a75a2ac1c13590fbec9b2"
+  integrity sha512-PlOTWpInXPnrbjoe59fA/a8wSfcoGxfkQQ+Jg4REZKOQelYHUQUP9CI1kn3YvRYNhFuWxnOC8NjCu+67rX9n8Q==
+
 "@capacitor/app@5.0.6":
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-5.0.6.tgz#2ee02551115fd2e92dc7e81bc30a6c6fa78efa66"
   integrity sha512-6ZXVdnNmaYILasC/RjQw+yfTmq2ZO7Q3v5lFcDVfq3PFGnybyYQh+RstBrYri+376OmXOXxBD7E6UxBhrMzXGA==
 
-"@capacitor/cli@5.4.1":
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/@capacitor/cli/-/cli-5.4.1.tgz#b9efcb1587861009ce484234883b0eea01b4abaa"
-  integrity sha512-Smwn38zrTRzPDGBpcoysgL40t34pu/wPbaq6s8HYPJgjutAAO/AsO/OeNA6aY+J+lgqXreBw7NwWfC4FsbqMMA==
+"@capacitor/cli@^5.4.2":
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/cli/-/cli-5.4.2.tgz#673ef8ff19b87e896467bac57b8272b223273051"
+  integrity sha512-ck2DC9hEai2BWsBM08WN98xjC2LDusSzUWQySTNQ81S/cQUpSPXk9YX+KTd3rP/kI/sXpOuDEe7SSS7qkD1a2w==
   dependencies:
     "@ionic/cli-framework-output" "^2.2.5"
     "@ionic/utils-fs" "^3.1.6"
@@ -38,10 +43,10 @@
     tslib "^2.4.0"
     xml2js "^0.5.0"
 
-"@capacitor/core@5.4.1":
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-5.4.1.tgz#5c90f5df3d60e752c5de137de5653751fefe1752"
-  integrity sha512-QG9gORuxw2WNcVpLHT1W3LzACOJvFWRuHcz4b9edzxehSELqiSQ4DoGWLp4PuNBBp2oV/fGA4FMNmfZ1jIAAWg==
+"@capacitor/core@^5.4.2":
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-5.4.2.tgz#c7303f6b0b080e5f585b79399f246701c4c8ea84"
+  integrity sha512-XbR1vldJFzBWHeoGPpgfNy3Zhjf0NxXdHEaGNANWVBg0ZWG2gwFr1dcRALUUQtbwrEEkCCNiLYg4YiQPRk7SEQ==
   dependencies:
     tslib "^2.1.0"
 
@@ -49,6 +54,11 @@
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/@capacitor/haptics/-/haptics-5.0.6.tgz#c22fd6acbc62cbdff39279ded687c418f2c89a5a"
   integrity sha512-UrMcR7p2X10ql4VLlowUuH/VckTeu0lj+RQpekxox14uxDmu5AGIFDK/iDTi8W6QZkxTJRZK6sbCjgwYgNJ7Pw==
+
+"@capacitor/ios@5.4.2":
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/ios/-/ios-5.4.2.tgz#83947c7807b0441166d130a38511cf9a6d4621b1"
+  integrity sha512-KsICm57H7rUOcQ+V7IOIPe87VOiXGWFrsCqAYxDWAS++hxTR7sn8Z0pcq7Ir2xS6as0ct1eZva9BokykpYaUXQ==
 
 "@capacitor/keyboard@5.0.6":
   version "5.0.6"

@@ -7,8 +7,8 @@
 	--color-bg-0: rgb(255, 255, 255);
 	--color-bg-1: hsl(209, 36%, 86%);
 	--color-bg-2: hsl(224, 44%, 95%);
-	--color-theme-1: #ff3e00;
-	--color-theme-2: #4075a6;
+	--color-theme-1: #1d1d1d;
+	--color-theme-2: #474747;
 	--color-text-0: rgba(0, 0, 0, 0.8);
 	--color-text-1: rgba(255, 255, 255, 0.9);
 	--column-width: 42rem;
@@ -44,10 +44,12 @@ p {
 a {
 	color: var(--color-theme-1);
 	text-decoration: none;
+	transition: opacity 0.3s ease;
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
+	opacity: 0.8;
 }
 
 h1 {
@@ -100,6 +102,15 @@ button {
 button:focus:not(:focus-visible) {
 	outline: none;
 }
+
+button {
+	opacity: 1;
+	transition: opacity 0.3s ease;
+  }
+  
+button:hover {
+	opacity: 0.8;
+  }
 
 @media (min-width: 720px) {
 	h1 {
