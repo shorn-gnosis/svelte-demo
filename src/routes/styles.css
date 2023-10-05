@@ -1,5 +1,4 @@
 @import '@fontsource/fira-mono';
-/* @import '@fontsource/inter'; */
 
 :root {
 	--font-body: 'Inter', sans-serif;
@@ -55,6 +54,7 @@ a:hover {
 h1 {
 	font-size: 2rem;
 	text-align: center;
+	line-height: normal;
 }
 
 h2 {

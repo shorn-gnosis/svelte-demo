@@ -9,24 +9,23 @@
 </svelte:head>
 
 <section>
-		<div class="welcome">
-			
+		<div class="welcome mb-4">
 			<picture>
 				<source srcset={welcome} type="image/svg" />
 				<img src={welcome} alt="Gnosis Wallet" />
 			</picture>
 		</div>
 
-	<h1>
+	<h1 class="mb-4">
 		Welcome to<br>
 		<strong>Gnosis Wallet</strong>
 	</h1>
 </section>
 
-<div class="w-full h-full bg-gray-100 flex flex-col items-center justify-center">
+<div class="w-full h-full flex flex-col items-center justify-center">
 	<div style="width: 80%; height: 100%; text-align:center; margin: 0 auto">
-		<button style="margin-bottom:10px">Create a new wallet</button>
-		<a href="" class="text-gray-700 text-lg font-semibold mb-20">I already have a Circles account</a>
+		<button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Dark</button>
+		<a href="" class="text-gray-700 mb-20">I already have a Circles account</a>
 	</div>
 	
 	<!-- Other elements from the design -->
